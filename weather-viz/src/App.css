@@ -2,8 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #e0e0e0;
   color: #333333;
-  margin: 0;
-  padding: 0;
+  margin: 80px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,9 +13,10 @@ body {
 .app {
   width: 600px;
   background-color: #004d40; /* Teal darken-4 */
-  padding: 20px;
+  padding: 40px 20px 20px; /* Increased top padding */
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  padding: 14px
 }
 
 h1 {
@@ -37,7 +38,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* Styling for the footer or smaller text */
 .footer-text {
   font-size: 16px;
   color: #ffffff;
